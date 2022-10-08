@@ -1,3 +1,73 @@
-h1 {
-    color: blue;
+/* HEADER SECTION */
+.top-container{
+    display: flex;
+    flex-shrink:0;
+    background-color: #1F2937;
+    flex-flow: row wrap;
+    justify-content: center;
+    border: purple 5px solid;
+}
+
+.header {
+    display: flex;
+    flex-grow: 1;
+    flex-shrink: 0;
+    justify-content: space-around;
+}
+
+.header-text{
+    font-size: 24px;
+    color:#F9FAF8;
+    font-weight: bold;
+}
+
+.links {
+    display: flex;
+    font-size: 18px;
+    gap:20px;
+}
+
+/* END OF HEADING SECTION */
+
+/* 2ND SECTION OF TOP*/
+.header2 {
+    display: flex;
+    border: red 5px solid;
+}
+
+.container2 {
+
+}
+
+.main {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: bolder;
+}
+
+.text {
+    font-size: 18px;
+    color: #E5E7EB;
+    font-weight:100;
+}
+
+button {
+    padding: 8px 16px;
+    border-radius: 8px;
+}
+
+button.sign-up {
+    background-color: royalblue;
+    border: 1px solid royalblue;
+    color: white;
+}
+
+li{
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #E5E7EB;
+    font-weight:100;
 }
